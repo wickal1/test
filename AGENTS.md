@@ -1,3 +1,4 @@
+
 # Agent Guidelines for Project Development
 
 This document outlines the commands, code style, and conventions to be followed by agents operating within this repository. Adherence to these guidelines ensures consistency, maintainability, and efficient collaboration.
@@ -56,7 +57,7 @@ Adherence to these guidelines is crucial for maintaining a consistent and readab
 
 *   **Prettier:** Assume Prettier is configured for automatic formatting. Use `npm run lint` which should trigger Prettier.
 *   **Indentation:** Use 2 spaces for indentation (common in Next.js/React projects).
-*   **Quotes:** Prefer single quotes (`'`) for strings, unless a string contains a single quote itself, in which case double quotes (`"`) should be used. For JSX props, double quotes are standard.
+*   **Quotes:** Prefer single quotes ('') for strings, unless a string contains a single quote itself, in which case double quotes ('") should be used. For JSX props, double quotes are standard.
 *   **Semicolons:** Semicolons are generally used.
 
 ### Types (TypeScript)
@@ -93,3 +94,7 @@ No specific Cursor rules files (`.cursor/rules/` or `.cursorrules`) were found i
 ## 4. Copilot Rules
 
 No specific Copilot instructions file (`.github/copilot-instructions.md`) was found in the repository. Agents should rely on the general code style and conventions outlined above.
+
+**Agent Response Language:** Respond in Korean.
+**Pre-modification Check:** Before modifying any file, verify its existence.
+tailwind.config.ts 파일은 Tailwind CSS v4를 사용하기 때문에 존재하지 않는 것이 맞으니 신경쓰지 않아도 됩니다.
