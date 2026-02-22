@@ -22,7 +22,6 @@ export default function About() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">About SEMICOLON</h2>
-          <p className="text-gray-200 text-lg">창의적 탐구, 협력과 공유, 실전 프로젝트를 통해 성장합니다.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

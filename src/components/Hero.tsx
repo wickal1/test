@@ -34,9 +34,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto"
           >
-            창의적 탐구, 협력과 공유, 실전 프로젝트를 통해
-            <br />
-            함께 성장하는 SEMICOLON에 오신 것을 환영합니다.
+            최신 AI 기술과 웹, 게임 개발의 만남. 이론을 넘어 실제 서비스를 구현하는 SEMICOLON과 함께하세요.
           </motion.p>
 
           <motion.div
