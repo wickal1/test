@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 import { aboutData } from '@/lib/data';
-import { Lightbulb, Users, Code, LucideIcon } from 'lucide-react';
+import { FastForward, ArrowBigUpDash, Code, LucideIcon } from 'lucide-react';
 
 const iconMap: Record<string, LucideIcon> = {
-  Lightbulb,
-  Users,
+  FastForward,
+  ArrowBigUpDash,
   Code,
 };
 

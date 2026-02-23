@@ -1,18 +1,18 @@
 export const aboutData = [
   {
-    icon: 'Lightbulb',
-    title: '창의적 탐구',
-    description: '자유로운 분위기 속에서 새로운 아이디어를 탐구하고 실험합니다.'
+    icon: 'FastForward',
+    title: '빠른 결과물',
+    description: 'AI를 체계적으로 활용하여 쉽고 빠르게 원하는 프로그램을 제작합니다.'
   },
   {
-    icon: 'Users',
-    title: '협력과 공유',
-    description: '팀 프로젝트를 통해 협력의 가치를 배우고 지식을 공유합니다.'
+    icon: 'ArrowBigUpDash',
+    title: '높은 퀄리티',
+    description: '기존 코딩보다 훨씬 높은 퀄리티의 결과물을 도출해 냅니다.'
   },
   {
     icon: 'Code',
-    title: '실전 프로젝트',
-    description: '실제 서비스를 개발하고 다양한 대회에 참가합니다.'
+    title: '실습과 학습',
+    description: 'AI를 직접 사용하며 AI와 프로그램에 대한 이론을 깊게 알아갑니다.'
   }
 ];
 
