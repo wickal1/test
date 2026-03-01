@@ -101,8 +101,8 @@ export const projectsData = [
 ];
 
 export const recruitData = {
-  deadline: '03/06 (금)',
-  freshman: 10,
+  deadline: '2026/03/08 (월)',
+  freshman: '10~12',
   sophomore: 2,
   kakaotalk: 'https://open.kakao.com/o/gyueSzgi'
 };
