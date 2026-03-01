@@ -27,9 +27,9 @@ export default function Part() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="flex flex-col h-80 bg-black/20 backdrop-blur-sm rounded-2xl hover:bg-black/30 transition-all duration-300 cursor-pointer"
+              className="flex flex-col h-auto bg-black/20 backdrop-blur-sm rounded-2xl hover:bg-black/30 transition-all duration-300 cursor-pointer"
             >
-              <div className="relative flex-1 p-4">
+              <div className="relative flex-1 p-3 min-h-[300px]">
                 <Image
                   src={part.image}
                   alt={part.title}
@@ -37,7 +37,7 @@ export default function Part() {
                   className="object-contain"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-4">
                 <h3 className="text-xl font-bold text-white mb-2">{part.title}</h3>
                 <p className="text-gray-200">{part.description}</p>
               </div>
