@@ -40,13 +40,13 @@ export const partData = [
 export const gearData = [
   {
     id: 1,
-    title: 'Gear 1',
-    image: '/images/dummy/semicolon_plan.jpg'
+    title: 'front',
+    image: '/images/dummy/semi_gear1.jpg'
   },
   {
     id: 2,
-    title: 'Gear 2',
-    image: '/images/dummy/semicolon_plan.jpg'
+    title: 'side',
+    image: '/images/dummy/semi_gear2.jpg'
   }
 ];
 

@@ -26,13 +26,13 @@ export default function Gear() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl cursor-pointer h-64"
+              className="group relative overflow-hidden rounded-2xl cursor-pointer h-80"
             >
               <Image
                 src={gear.image}
                 alt={gear.title}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <h3 className="text-xl font-bold text-white">{gear.title}</h3>
