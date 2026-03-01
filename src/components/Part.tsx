@@ -27,15 +27,17 @@ export default function Part() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl cursor-pointer h-64"
+              className="flex flex-col h-80 bg-black/20 backdrop-blur-sm rounded-2xl hover:bg-black/30 transition-all duration-300 cursor-pointer"
             >
-              <Image
-                src={part.image}
-                alt={part.title}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+              <div className="relative flex-1 p-4">
+                <Image
+                  src={part.image}
+                  alt={part.title}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="p-6">
                 <h3 className="text-xl font-bold text-white mb-2">{part.title}</h3>
                 <p className="text-gray-200">{part.description}</p>
               </div>

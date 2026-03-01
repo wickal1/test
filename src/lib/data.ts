@@ -19,21 +19,21 @@ export const aboutData = [
 export const partData = [
   {
     id: 1,
-    title: '팀 프로젝트',
-    description: '통합 관리 사이트 개발',
-    image: '/images/dummy/semicolon_plan.jpg'
+    title: '01. AI 부',
+    description: 'AI에 대한 전문적 지식을 기르고 다양한 분야에 적극적으로 활용',
+    image: '/images/dummy/semi_part1.jpg'
   },
   {
     id: 2,
-    title: '개인 프로젝트',
-    description: '2D 플랫포머 게임',
-    image: '/images/dummy/semicolon_plan.jpg'
+    title: '02. 게임 개발부',
+    description: '자신이 원하는 게임을 자신의 손으로 직접 제작',
+    image: '/images/dummy/semi_part2.jpg'
   },
   {
     id: 3,
-    title: '특별 프로젝트',
-    description: 'AI 자세 교정 서비스',
-    image: '/images/dummy/semicolon_plan.jpg'
+    title: '03. 웹페이지 개발부',
+    description: '자신이 만든 웹사이트를 누구나 들어갈 수 있도록 개발',
+    image: '/images/dummy/semi_part3.jpg'
   }
 ];
 
