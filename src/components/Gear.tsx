@@ -26,7 +26,7 @@ export default function Gear() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl cursor-pointer h-80"
+              className="group relative overflow-hidden rounded-2xl cursor-pointer h-80 bg-black/20 backdrop-blur-sm hover:bg-black/30 transition-all duration-300"
             >
               <Image
                 src={gear.image}
