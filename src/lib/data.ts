@@ -16,7 +16,7 @@ export const aboutData = [
   }
 ];
 
-export const activitiesData = [
+export const partData = [
   {
     id: 1,
     title: '팀 프로젝트',
@@ -34,23 +34,18 @@ export const activitiesData = [
     title: '특별 프로젝트',
     description: 'AI 자세 교정 서비스',
     image: '/images/dummy/semicolon_plan.jpg'
-  },
+  }
+];
+
+export const gearData = [
   {
-    id: 4,
-    title: '학술 교류',
-    description: '하나고 IT 동아리 교류',
+    id: 1,
+    title: 'Gear 1',
     image: '/images/dummy/semicolon_plan.jpg'
   },
   {
-    id: 5,
-    title: '경진대회',
-    description: 'SW 동아리 경진대회',
-    image: '/images/dummy/semicolon_plan.jpg'
-  },
-  {
-    id: 6,
-    title: '봉사활동',
-    description: '정보 보안 교육',
+    id: 2,
+    title: 'Gear 2',
     image: '/images/dummy/semicolon_plan.jpg'
   }
 ];

@@ -1,8 +1,9 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
-import Activities from '@/components/Activities';
+import Part from '@/components/Part';
 import Projects from '@/components/Projects';
+import Gear from '@/components/Gear';
 import Recruit from '@/components/Recruit';
 import Footer from '@/components/Footer';
 
@@ -12,8 +13,9 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <Activities />
+      <Part />
       <Projects />
+      <Gear />
       <Recruit />
       <Footer />
     </main>
